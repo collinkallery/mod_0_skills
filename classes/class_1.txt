@@ -1,0 +1,15 @@
+Class: Table
+
+Attributes:
+height (float)
+seating_capacity (integer)
+color (string)
+useable_now (boolean)
+broken (boolean)
+location (string)
+
+Methods:
+seat_table (verify guest count does not exceed seating_capacity, verify "true" for useable_now)
+fix_table (verify "true" for broken, forced response "false" for useable_now, input location for "back of house")
+describe_table (use color and height to describe table "This table is ____ and __ inches tall")
+move_table (verify "true" for useable_now, input new location)
