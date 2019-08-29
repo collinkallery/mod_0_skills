@@ -1,0 +1,13 @@
+Class: Fridge
+
+Attributes:
+current_temperature (float)
+current_foods (string)
+expired_foods (boolean)
+door_open (boolean)
+
+Methods:
+throw_away_expired_foods (verify "true" for expired foods, delete selected foods)
+sound_door_alarm (verify "true" for door open, if > 10s, sound alarm)
+adjust_temperature (display current temperature, input new temperature)
+check_capacity (subtract number of expired foods from number of current foods)
