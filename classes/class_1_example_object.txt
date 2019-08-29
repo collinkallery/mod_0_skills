@@ -1,0 +1,13 @@
+Class Example Object: Table 42
+
+height: 37.5 inches
+seating_capacity: 4
+color: "Brown"
+useable_now: true
+broken: false
+location: "Room 2", "left-hand-side"
+
+seat_table: guest count = 3 (<4), does not exceed seating capacity, useable_now = true
+fix_table: broken = true, useable_now = false until repaired
+describe_table: "This table is Brown and 37.5 inches tall"
+move_table: useable_now = true, new location: "Room 4, right-hand side"
