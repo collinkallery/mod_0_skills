@@ -1,0 +1,11 @@
+Class Example Object: Fridge at Pizza Shop
+
+current_temperature: 37.6 degrees
+current_foods: tomatoes, pepperoni, mozzarella cheese, & dough
+expired_foods: tomatoes
+door_open: true
+
+throw_away_expired_foods: "tomatoes are expired - removed from fridge"
+sound_door_alarm: door_open = true, > 10s, alarm activated
+adjust_temperature: current_temperature = 37.6 degrees, new temperature = 35 degrees
+check_capacity: 4 total foods - 1 expired food = 75% full
